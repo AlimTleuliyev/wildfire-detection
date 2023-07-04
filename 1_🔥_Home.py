@@ -6,6 +6,7 @@ import os
 import cv2
 from glob import glob
 from numpy import random
+import io
 
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
@@ -225,6 +226,23 @@ def main():
             prediction, text = predict_image(model, image, conf_threshold, iou_threshold)
             st.image(prediction, caption="Prediction", use_column_width=True)
             st.success(text)
+        
+        prediction = Image.fromarray(prediction)
 
+        # Create a BytesIO object to temporarily store the image data
+        image_buffer = io.BytesIO()
+
+        # Save the image to the BytesIO object in PNG format
+        prediction.save(image_buffer, format='PNG')
+
+        # Create a download button for the image
+        st.download_button(
+            label='Download Prediction',
+            data=image_buffer.getvalue(),
+            file_name='prediciton.png',
+            mime='image/png'
+        )
+
+        
 if __name__ == "__main__":
     main()
