@@ -1,9 +1,9 @@
 import streamlit as st  # type: ignore
+import cv2
 from ultralytics import YOLO
 import requests # type: ignore
 from PIL import Image
 import os
-import cv2
 from glob import glob
 from numpy import random
 import io
@@ -166,7 +166,7 @@ def main():
             st.caption("Choose a model based on the trade-off between speed and precision that best suits your needs.")
 
     # Load the selected model
-    model_path = os.path.join(models_dir, selected_model + ".pt")
+    model_path = os.path.join(models_dir, selected_model + ".pt") #type: ignore
     model = load_model(model_path)
 
     # Add a section divider
