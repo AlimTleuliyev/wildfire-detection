@@ -152,5 +152,3 @@ cython_debug/
 #.idea/
 
 .DS_Store
-fire_models/
-general_models/
