@@ -160,7 +160,11 @@ def main():
     
     with col2:
         with st.expander("Size Information"):
-            st.caption("Models are available in different sizes, indicated by n, s, m, l, and x.")
+            st.caption("Models are available in different sizes, indicated by n, s, m, and l.")
+            st.caption("- n: Nano")
+            st.caption("- s: Small")
+            st.caption("- m: Medium")
+            st.caption("- l: Large")
             st.caption("The larger the model, the more precise the detections, but the slower the inference time.")
             st.caption("On the other hand, smaller models are faster but may sacrifice some precision.")
             st.caption("Choose a model based on the trade-off between speed and precision that best suits your needs.")
