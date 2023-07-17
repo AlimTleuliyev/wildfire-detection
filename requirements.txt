@@ -1,2 +1,3 @@
-ultralytics==8.0.135
+ultralytics==8.0.136
 streamlit==1.24.0
+py-cpuinfo
