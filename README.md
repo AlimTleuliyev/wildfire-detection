@@ -3,7 +3,7 @@
 Welcome to the Wildfire Detection Research repository, focusing on fire detection using computer vision. This project aims to contribute to wildfire prevention efforts by leveraging machine learning to detect fire and smoke instances in images.
 
 <p align="center">
-  <img src="dalle-logos/logo2.png" alt="Logo" width="400">
+  <img src="src/intro-gif.gif" alt="gif", width = 600>
 </p>
 
 ---
@@ -47,7 +47,7 @@ We trained the YOLOv8 model by [Ultralytics](https://github.com/ultralytics/ultr
 
 ## Results
 
-The trained YOLOv8 model demonstrated impressive performance on the D-Fire test dataset, with mAP@50 scores and inference time across different model sizes as follows. Evaluation was done using NVIDIA A100-SXM4-40. Input size of the models was 640x640.
+The trained YOLOv8 model demonstrated impressive performance on the D-Fire test dataset, with mAP@50 scores and inference time across different model sizes as follows. Evaluation was done using NVIDIA A100-SXM4-40. Resolution of input images was 640x640.
 
 | Model Size  | mAP@50 | Inference (ms) |
 |-------------|--------|----------------|
