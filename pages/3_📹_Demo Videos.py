@@ -1,4 +1,5 @@
 import streamlit as st #type: ignore
+from glob import glob
 
 st.markdown(
         """
@@ -35,5 +36,8 @@ st.markdown("<div class='title'>Demo Videos</div>", unsafe_allow_html=True)
 
 
 st.caption("<div class='text'>Videos do not have sound.</div>", unsafe_allow_html=True)
-st.video('firekz1.mov')
-st.video('firekz2.mov')
+
+videos = glob('demo-videos/*')
+
+for video in videos:
+    st.video(video)
