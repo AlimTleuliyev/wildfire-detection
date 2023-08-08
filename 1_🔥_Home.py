@@ -142,7 +142,7 @@ def main():
     with col1:
         model_type = st.radio("Select Model Type", ("Fire Detection", "General"), index=0)
 
-    models_dir = "general-models" if model_type == "General" else "fire-models"
+    models_dir = "general_models" if model_type == "General" else "fire_models"
     model_files = [f.replace(".pt", "") for f in os.listdir(models_dir) if f.endswith(".pt")]
     
     with col2:

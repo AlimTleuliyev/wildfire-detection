@@ -152,5 +152,3 @@ cython_debug/
 #.idea/
 
 .DS_Store
-*x.pt
-src/
