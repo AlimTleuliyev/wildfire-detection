@@ -1,6 +1,6 @@
-# Wildfire Detection Research
+# Wildfire Detection
 
-Welcome to the Wildfire Detection Research repository, focusing on fire detection using computer vision. This project aims to contribute to wildfire prevention efforts by leveraging machine learning to detect fire and smoke instances in images.
+Welcome to the Wildfire Detection repository, focusing on fire detection using computer vision. This project aims to contribute to wildfire prevention efforts by leveraging machine learning to detect fire and smoke instances in images.
 
 <p align="center">
   <img src="src/intro-gif.gif" alt="gif" width = 800>
