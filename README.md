@@ -1,10 +1,18 @@
 # Wildfire Detection
-
-Welcome to the Wildfire Detection repository, focusing on fire detection using computer vision. This project aims to contribute to wildfire prevention efforts by leveraging machine learning to detect fire and smoke instances in images.
+Welcome to the Wildfire Detection Research repository! This repository hosts the code and resources related to our research on leveraging computer vision for fire detection. Our aim is to contribute to wildfire prevention efforts by developing and training an object detection model to accurately identify instances of fire and smoke in images.
 
 <p align="center">
   <img src="src/intro-gif.gif" alt="gif" width = 800>
 </p>
+
+## Highlights:
+
+- Trained YOLOv8 model using the D-Fire dataset for accurate fire and smoke detection.
+- Explored different model sizes and their performance metrics.
+- Developed a Streamlit app for practical demonstration of the model's capabilities.
+- Investigated future implications of using computer vision in wildfire prevention strategies.
+
+#### For a comprehensive understanding of our research journey, methodology, and results, please refer to our [Medium article.](url)
 
 ---
 
@@ -49,7 +57,7 @@ We have explored many different datasets. Here is the summary:
 
 We trained the YOLOv8 model by [Ultralytics](https://github.com/ultralytics/ultralytics) on the D-Fire dataset to achieve accurate fire and smoke detection. Our research not only focuses on achieving high accuracy but also on optimizing model parameters and hyperparameters to ensure efficiency and speed.
 
-#### Training recipe can be found in a [training-recipes folder](https://github.com/AlimTleuliyev/wildfire-detection/tree/main/training-recipes)
+#### Training recipe can be found in a [training-recipes folder](training-recipes)
 
 ---
 
