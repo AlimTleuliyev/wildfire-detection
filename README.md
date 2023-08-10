@@ -3,7 +3,7 @@
 Welcome to the Wildfire Detection Research repository, focusing on fire detection using computer vision. This project aims to contribute to wildfire prevention efforts by leveraging machine learning to detect fire and smoke instances in images.
 
 <p align="center">
-  <img src="src/intro-gif.gif" alt="gif" width = 600>
+  <img src="src/intro-gif.gif" alt="gif" width = 800>
 </p>
 
 ---
@@ -78,6 +78,13 @@ This research underscores the potential of computer vision in addressing real-wo
 ## Streamlit App
 
 For a practical demonstration of our research, you can interact with our Wildfire Detection App, powered by the YOLOv8 model. This app allows you to upload images and observe the model's detection capabilities in action. To experience the app, visit: [Wildfire Detection App](https://wildfire-detection.streamlit.app)
+
+<p align="center">
+  <img src="src/streamlit-merged.png" alt="Streamlit App" width = 600>
+</p>
+<div align="center">
+  Wildfire Detection App
+</div>
 
 ---
 
