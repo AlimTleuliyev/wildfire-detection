@@ -77,7 +77,9 @@ This research underscores the potential of computer vision in addressing real-wo
 
 ## Streamlit App
 
-For a practical demonstration of our research, you can interact with our Wildfire Detection App, powered by the YOLOv8 model. This app allows you to upload images and observe the model's detection capabilities in action. To experience the app, visit: [Wildfire Detection App](https://wildfire-detection.streamlit.app)
+For a practical demonstration of our research, you can interact with our Wildfire Detection App, powered by the YOLOv8 model. This app allows you to upload images and observe the model's detection capabilities in action. 
+
+#### To experience the app, visit: [Wildfire Detection App](https://wildfire-detection.streamlit.app)
 
 <p align="center">
   <img src="src/streamlit-merged.png" alt="Streamlit App" width = 600>
