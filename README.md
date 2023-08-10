@@ -11,6 +11,12 @@ Welcome to the Wildfire Detection Research repository, focusing on fire detectio
 ## Dataset
 
 We utilized the [D-Fire dataset](https://github.com/gaiasd/DFireDataset), a curated collection of 21,000 labeled images, each annotated in YOLO format. The dataset focuses on fire and smoke instances, while also encompassing diverse visual cues, including non-fire images that resemble fire-like patterns.
+<p align="center">
+  <img src="src/multiple-examples.png" alt="D-Fire dataset examples" width = 600>
+</p>
+<div align="center">
+  D-Fire dataset examples
+</div>
 
 We have explored many different datasets. Here is the summary:
 
@@ -43,6 +49,8 @@ We have explored many different datasets. Here is the summary:
 
 We trained the YOLOv8 model by [Ultralytics](https://github.com/ultralytics/ultralytics) on the D-Fire dataset to achieve accurate fire and smoke detection. Our research not only focuses on achieving high accuracy but also on optimizing model parameters and hyperparameters to ensure efficiency and speed.
 
+#### Training recipe can be found in a [training-recipes folder](https://github.com/AlimTleuliyev/wildfire-detection/tree/main/training-recipes)
+
 ---
 
 ## Results
@@ -57,7 +65,7 @@ The trained YOLOv8 model demonstrated impressive performance on the D-Fire test 
 | Large       | 0.812  |     2.342      |
 | Extra Large | 0.814  |     3.465      |
 
-For a detailed exploration of our training process and insights, we invite you to read our comprehensive guide on Medium: [Guide Link](https://medium.com/your-article-link)
+#### For a detailed exploration of our training process and insights, we invite you to read our comprehensive guide on Medium: [Guide Link](https://medium.com/your-article-link)
 
 ---
 
@@ -78,7 +86,14 @@ For a practical demonstration of our research, you can interact with our Wildfir
 Please note that while our Streamlit app demonstrates the capabilities of our model, it is intended for demonstration purposes and may not be suitable for critical wildfire detection applications.
 
 ---
+## Acknowledgment
+
+I would like to acknowledge the Institute of Smart Systems and Artificial Intelligence ([ISSAI](https://issai.nu.edu.kz)) at Nazarbayev University for fostering an environment of innovation and research excellence. The support I received from ISSAI has been integral to the successful completion of this endeavor.
+
+I extend my heartfelt appreciation to my supervisor, [Askat Kuzdeuov](https://www.linkedin.com/in/askatkuzdeuov/), at ISSAI, whose guidance and mentorship were indispensable to the success of this research. His expertise and support have been invaluable in shaping the direction and quality of this work.
+
+---
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
